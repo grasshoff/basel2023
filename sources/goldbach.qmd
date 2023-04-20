@@ -1,0 +1,147 @@
+---
+draft: true # set to false once the build is running
+published: false # will be set to true once accepted
+title: "Computational Studies of Euler's Works - Goldbach Correspondence"
+subtitle: "Euler Opera Omnia - Contribution, Series VI.1"
+author: 
+  - name: Gerd Graßhoff
+    corresponding: true
+    email: gerd.grasshoff@hu-berlin.de
+    url: https://grasshoff.college
+    orcid: 0000-0000-0000-0000
+    affiliations:
+    - name: Humboldt-Universität zu Berlin
+      department: Department of Philosophy
+      address: Unter den Linden 6
+      city: Berlin
+      country: Germany    
+      postal-code: 10099
+format:
+    computo-html: default
+    computo-pdf: default
+output: 
+  html_document:
+    css: styles.css
+---
+
+```{python}
+#| echo: false
+from IPython.display import display, HTML
+from lettredigitalGPT.lettredigitalGPT import *
+collection = "/Users/friedrichstr/Dropbox/SitesDev/eulerOO/"
+work = "E57"  # path stem
+gezeiten = Buch(collection=collection, work=work)
+from htmltools import *
+```
+
+```{python}
+#| echo: false
+from IPython.core.magic import register_line_magic
+
+@register_line_magic
+def OBE(line):
+    # Define your processing logic here, e.g., add "Processed: " in front of the text
+    return "Processed: " + line
+```
+
+# Euler Opera Omnia
+
+OperaBernoulliEuler.digital is a digital platform for the complete works of Leonhard Euler and the scholars of the Bernoulli family. The editions of Euler Opera Omnia, also known as Opera Omnia, were edited and published by the Euler Kommission of the Swiss Academy of Natural Sciences from 1907 to 1922. Its entire collection has been digitised and will be an integral part of the future digital platform of the Opera Bernoulli Euler.digital or OBE.digital.
+
+![Euler Opera Omnia](./img/Euler%20Opera%20Omnia.png)
+
+The Euler Opera Omnia will continue beyond the volumes already published and will consist of six series:
+
+- Series I-III - Works. All the volumes published contain Euler's writings. These series cover the wide range of Euler's scientific publications and his contributions to various fields of knowledge.
+
+- Series IV.A - Correspondence, which edits the correspondence between Leonhard Euler and other scholars. This series provides an insight into Euler's interactions with fellow researchers and a deeper understanding of the scientific community of his time.
+
+- Series IV.B - Manuscripts. This contains unpublished manuscripts by Euler. These texts provide a unique perspective on Euler's work and ideas that were not published during his lifetime.
+
+- Series V - Contributions. It aims to provide insights into the context of Euler's writings within his historical period. This series will explore the significance and impact of Euler's work on contemporary scientific thought and developments.
+
+- Series VI - AI. It will consist of datasets and other data-based resources related to Euler's work. This series aims to facilitate further study and analysis of Euler's contributions to various fields of knowledge.
+
+By compiling and organising these comprehensive resources, the Euler Opera Omnia AI will serve as an invaluable tool for researchers, students and anyone interested in the life and work of Leonhard Euler.
+
+# OperaBernoulliEuler.digital
+
+
+
+# Euler AI
+
+## AI Interface with natural language
+
+The magic of Euler AI lies in its natural language interface. All operations can be formulated using a comprehensible language (for many languages) and entered via any conceivable input interface such as keyboard, mouse or voice. It is no longer necessary to learn a programming language to perform the most complex tasks.
+Computational Studies uses AI to analyse and interpret the works of Euler. The aim is to provide a new approach to historical studies, using natural language to interact easily with unstructured textual sources, and to methodically guide studies and scholarly research into Euler's work, facilitating further research and the publication of its results. All research steps are largely supported by our AI assistants. The AI assistants are trained on the complete works of Euler and are able to answer questions about the content of the works and to provide insights into the context of Euler's writings within his historical period. The AI assistants are also able to provide insights into the significance and impact of Euler's work on contemporary scientific thought and developments.
+
+## EulerAI Copilot
+The EulerAI Copilot will then process a query and generates the desired results. It will be displayed as a computable box in the notebook with four elements:
+
+
+::: {.callout-caution icon="false"}
+## goldbach
+```{python}
+%OBE Wähle das Buch mit der ID 978-3-0348-0892-7  und benenne es 'goldbach'.
+```
+:::
+
+- left the orange verticale bar indicates that the box is a computable box
+- the top line shows the reference to the box. It is a way to refer to the computational output of the Copilots response.
+- the box with a blue vertical bar indicates that the box is a query box. It contains the query that was entered by the user by an initial "%OBE" attention marker, followed by the query in an appropriate language. It might be a question or a command in a natural language, or a code fragment like a python code snippet. The box can be closed for better reading of the text, or opened to see the query.
+- the green vertical bar indicates that the box is a response box. It contains the response of the Copilot. It might be a text, a table, a graph, a video, or a code fragment like a python code snippet. The box can be closed for better reading of the text, or opened to see the response.
+
+
+::: {.callout-caution icon="false"}
+## 
+```{python}
+#| echo: false
+collection = "/Users/friedrichstr/Dropbox/SitesDev/eulerOO/"
+work = "978-3-0348-0892-7"
+goldbach = Buch(collection=collection, work=work)
+```
+:::
+
+In this case, we are referring to a volume from the Series IV/A, specifically the correspondence between Euler and Goldbach, and we designate this volume as the first segment. In the code, this segment can be defined as "goldbach". Dieses Textfeld zeigt die Eingabe in der formalen Syntax. Eine äquivalente umgangssprachliche Formulierung wie im nachfolgenden Block ist äquivalent.
+
+::: {.callout-caution icon="false"}
+## goldbach
+```{python}
+goldbach = Buch(collection=collection, work="978-3-0348-0892-7")
+goldbach
+```
+:::
+
+
+Die gleiche Operation kann mit einer inhaltlich (semantisch) gleichwertigen Formulierung ausgelöst werden.
+
+::: {.callout-caution icon="false"}
+## goldbach2
+```{python}
+%OBE Wybierz książkę o ID 978-3-0348-0892-7 pod nazwą "goldbach"..
+```
+:::
+
+Since semantically equivalent formulations are essential, the input can also be in another language, e.g. German, English or Polish. Euler AI will process the input and perform the appropriate operation.
+
+
+::: {.callout-caution icon="false"}
+```{python}
+n="Segment 1"
+m=page2md(goldbach.doc, 152, 0, 14)
+display(HTML(h1plate(m)))
+```
+:::
+
+
+
+# OBE.digital and the future of scholarly research
+
+![Euler AI data processing](./img/OBE%20Data.png)
+
+
+
+
+## Segmentation
+
+Segmentation is the process of interacting with texts to focus on a particular section. For example, a paragraph from Euler's publication in Latin should be translated into Italian. The Euler AI assistant will provide the Italian translation of the paragraph. To invoke the AI assistant, the user first selects the proportion of the referenced text through a "segmentation". This operation is very flexible. The user can select a single word, a sentence, a paragraph, a chapter, a book or even the entire work. It is even possible to segment all the works of a certain period or all the secondary literature on a certain topic. A segment is the focus of further processing. 
