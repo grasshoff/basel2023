@@ -11,7 +11,7 @@
 <script src="../site_libs/quarto-contrib/jquery-3.6.3/jquery-3.6.3.min.js"></script>
 <script src="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.js" defer="true"></script>
 <link href="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.333">
+  <meta name="generator" content="quarto-1.4.383">
 
   <meta name="author" content="Prof.&nbsp;Dr.&nbsp;Gerd Graßhoff">
   <title>Euler AI - Opera Bernoulli Euler</title>
@@ -33,7 +33,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -160,7 +160,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -354,11 +355,25 @@ Prof.&nbsp;Dr.&nbsp;Gerd Graßhoff
 <h2 id="toc-title">Table of contents</h2>
 <ul>
 <li class="fragment"><a href="#/euler-opera-omnia" id="/toc-euler-opera-omnia">Euler Opera Omnia</a></li>
-<li class="fragment"><a href="#/work-und-struktur" id="/toc-work-und-struktur">Work und Struktur</a>
+<li class="fragment"><a href="#/texte" id="/toc-texte">Texte</a>
 <ul>
-<li class="fragment"><a href="#/pdf-and-markdown" id="/toc-pdf-and-markdown">PDF and Markdown</a></li>
-<li class="fragment"><a href="#/segment_1-gezeiten-2081" id="/toc-segment_1-gezeiten-2081">Segment_1 (Gezeiten 208,1)</a></li>
-<li class="fragment"><a href="#/segment_1-übersetzung-dt." id="/toc-segment_1-übersetzung-dt.">Segment_1 Übersetzung dt.</a></li>
+<li class="fragment"><a href="#/semantic-references" id="/toc-semantic-references">Semantic References</a></li>
+<li class="fragment"><a href="#/semantische-embeddings" id="/toc-semantische-embeddings">Semantische Embeddings</a></li>
+<li class="fragment"><a href="#/scholarium" id="/toc-scholarium">Scholarium</a></li>
+<li class="fragment"><a href="#/kontext-literatur" id="/toc-kontext-literatur">Kontext Literatur</a></li>
+<li class="fragment"><a href="#/semantisch-verwandte-themen" id="/toc-semantisch-verwandte-themen">Semantisch verwandte Themen</a></li>
+<li class="fragment"><a href="#/vektordatenbank" id="/toc-vektordatenbank">Vektordatenbank</a></li>
+</ul></li>
+<li class="fragment"><a href="#/labeling" id="/toc-labeling">Labeling</a>
+<ul>
+<li class="fragment"><a href="#/entitäten" id="/toc-entitäten">Entitäten</a></li>
+</ul></li>
+<li class="fragment"><a href="#/workbench" id="/toc-workbench">Workbench</a></li>
+<li class="fragment"><a href="#/pattern-library" id="/toc-pattern-library">Pattern library</a></li>
+<li class="fragment"><a href="#/kuratierte-daten-series-vi" id="/toc-kuratierte-daten-series-vi">Kuratierte Daten (Series VI)</a></li>
+<li class="fragment"><a href="#/community-contributions-zenodo" id="/toc-community-contributions-zenodo">Community contributions (Zenodo)</a></li>
+<li class="fragment"><a href="#/euler-opera-omniaübersetzung-dt." id="/toc-euler-opera-omniaübersetzung-dt."><img data-src="../Users/friedrichstr/Dropbox/202x/2023projects/basel2023/sources/img/Euler Opera Omnia.png" alt="Euler Opera Omnia">Übersetzung dt.</a>
+<ul>
 <li class="fragment"><a href="#/segment_2-tabelle-einzelner-sätze" id="/toc-segment_2-tabelle-einzelner-sätze">Segment_2 Tabelle einzelner Sätze</a></li>
 <li class="fragment"><a href="#/computation" id="/toc-computation">Computation</a></li>
 </ul></li>
@@ -369,22 +384,120 @@ Prof.&nbsp;Dr.&nbsp;Gerd Graßhoff
 </section>
 <section id="euler-opera-omnia" class="title-slide slide level1 center">
 <h1>Euler Opera Omnia</h1>
-<p>In der Bearbeitungsphase 1 des Projekts wurden sämtliche Bände der Euler Opera Omnia retrodigitalisiert und weiterverarbeitet. Damit ist der gesamte Publikationsbestand von Eulers Opera Omnia digital zugänglich.</p>
+
 </section>
 
 <section>
-<section id="work-und-struktur" class="title-slide slide level1 center">
-<h1>Work und Struktur</h1>
+<section id="texte" class="title-slide slide level1 center">
+<h1>Texte</h1>
 
 </section>
-<section id="pdf-and-markdown" class="slide level2 center">
-<h2>PDF and Markdown</h2>
+<section id="semantic-references" class="slide level2 center">
+<h2>Semantic References</h2>
+<ul>
+<li class="fragment">Werke segmentiert in Einheiten
+<ul>
+<li class="fragment">Bücher
+<ul>
+<li class="fragment">Themen</li>
+<li class="fragment">Metadaten</li>
+</ul></li>
+<li class="fragment">Kapitel</li>
+<li class="fragment">Paragraphen</li>
+<li class="fragment">Sätze</li>
+<li class="fragment">Token</li>
+<li class="fragment">Mathematische Ausdrücke</li>
+<li class="fragment">Quellen</li>
+<li class="fragment">Annotationen</li>
+<li class="fragment">Einführungen / Kommentare</li>
+</ul></li>
+</ul>
 </section>
-<section id="segment_1-gezeiten-2081" class="slide level2 center">
-<h2>Segment_1 (Gezeiten 208,1)</h2>
+<section id="semantische-embeddings" class="slide level2 center">
+<h2>Semantische Embeddings</h2>
+<pre><code>- Euler Opera Omnia - 1/2 mio Sätze</code></pre>
 </section>
-<section id="segment_1-übersetzung-dt." class="slide level2 center">
-<h2>Segment_1 Übersetzung dt.</h2>
+<section id="scholarium" class="slide level2 center">
+<h2>Scholarium</h2>
+<pre><code>- BEK: kuratierte Sekundärliteratur
+- BEK: Contributions
+- BEK: Bibliometrische Information (ca. 12 000 Publikation inkl. Abstract)</code></pre>
+</section>
+<section id="kontext-literatur" class="slide level2 center">
+<h2>Kontext Literatur</h2>
+<ul>
+<li class="fragment">Zeitgenossen</li>
+<li class="fragment">Relevante Literatur nach Themenähnlichkeit</li>
+<li class="fragment">Ältere Quellen</li>
+<li class="fragment">Briefwechsel</li>
+</ul>
+</section>
+<section id="semantisch-verwandte-themen" class="slide level2 center">
+<h2>Semantisch verwandte Themen</h2>
+<ul>
+<li class="fragment">Mathematische Probleme</li>
+<li class="fragment">Notationen</li>
+<li class="fragment">Begriffs Universum</li>
+<li class="fragment">Methodische Vorgehensweisen</li>
+<li class="fragment">materielle Quellen
+<ul>
+<li class="fragment">Instrumente</li>
+<li class="fragment">Karten</li>
+<li class="fragment">Zeichnungen</li>
+</ul></li>
+</ul>
+</section>
+<section id="vektordatenbank" class="slide level2 center">
+<h2>Vektordatenbank</h2>
+<ul>
+<li class="fragment">Index Dateien für alle embeddings</li>
+</ul>
+</section></section>
+<section>
+<section id="labeling" class="title-slide slide level1 center">
+<h1>Labeling</h1>
+
+</section>
+<section id="entitäten" class="slide level2 center">
+<h2>Entitäten</h2>
+<ul>
+<li class="fragment">Personen</li>
+<li class="fragment">Orte</li>
+<li class="fragment">Fachausdrücke</li>
+</ul>
+</section></section>
+<section id="workbench" class="title-slide slide level1 center">
+<h1>Workbench</h1>
+
+</section>
+
+<section id="pattern-library" class="title-slide slide level1 center">
+<h1>Pattern library</h1>
+
+</section>
+
+<section id="kuratierte-daten-series-vi" class="title-slide slide level1 center">
+<h1>Kuratierte Daten (Series VI)</h1>
+<ul>
+<li class="fragment">Quellenreferenziert</li>
+<li class="fragment">Kuratiert mit Versionsgeschichte</li>
+<li class="fragment">DOI Referenziert</li>
+<li class="fragment">OpenAIR (Zenodo)</li>
+<li class="fragment">Datenharvesting</li>
+</ul>
+</section>
+
+<section id="community-contributions-zenodo" class="title-slide slide level1 center">
+<h1>Community contributions (Zenodo)</h1>
+<ul>
+<li class="fragment">kuratiert</li>
+</ul>
+</section>
+
+<section>
+<section id="euler-opera-omniaübersetzung-dt." class="title-slide slide level1 center">
+<h1><img data-src="../Users/friedrichstr/Dropbox/202x/2023projects/basel2023/sources/img/Euler Opera Omnia.png" alt="Euler Opera Omnia">Übersetzung dt.</h1>
+
 </section>
 <section id="segment_2-tabelle-einzelner-sätze" class="slide level2 scrollable center">
 <h2>Segment_2 Tabelle einzelner Sätze</h2>
@@ -431,7 +544,6 @@ Prof.&nbsp;Dr.&nbsp;Gerd Graßhoff
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -693,10 +805,9 @@ Prof.&nbsp;Dr.&nbsp;Gerd Graßhoff
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -706,8 +817,17 @@ Prof.&nbsp;Dr.&nbsp;Gerd Graßhoff
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 

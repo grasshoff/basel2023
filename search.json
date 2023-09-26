@@ -1,37 +1,92 @@
 [
   {
-    "objectID": "sources/basel2023.html#pdf-and-markdown",
-    "href": "sources/basel2023.html#pdf-and-markdown",
+    "objectID": "sources/basel2023.html#semantic-references",
+    "href": "sources/basel2023.html#semantic-references",
     "title": "Opera Bernoulli Euler",
-    "section": "PDF and Markdown",
-    "text": "PDF and Markdown"
+    "section": "Semantic References",
+    "text": "Semantic References\n\nWerke segmentiert in Einheiten\n\nBücher\n\nThemen\nMetadaten\n\nKapitel\nParagraphen\nSätze\nToken\nMathematische Ausdrücke\nQuellen\nAnnotationen\nEinführungen / Kommentare",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
   },
   {
-    "objectID": "sources/basel2023.html#segment_1-gezeiten-2081",
-    "href": "sources/basel2023.html#segment_1-gezeiten-2081",
+    "objectID": "sources/basel2023.html#semantische-embeddings",
+    "href": "sources/basel2023.html#semantische-embeddings",
     "title": "Opera Bernoulli Euler",
-    "section": "Segment_1 (Gezeiten 208,1)",
-    "text": "Segment_1 (Gezeiten 208,1)"
+    "section": "Semantische Embeddings",
+    "text": "Semantische Embeddings\n- Euler Opera Omnia - 1/2 mio Sätze",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
   },
   {
-    "objectID": "sources/basel2023.html#segment_1-übersetzung-dt.",
-    "href": "sources/basel2023.html#segment_1-übersetzung-dt.",
+    "objectID": "sources/basel2023.html#scholarium",
+    "href": "sources/basel2023.html#scholarium",
     "title": "Opera Bernoulli Euler",
-    "section": "Segment_1 Übersetzung dt.",
-    "text": "Segment_1 Übersetzung dt."
+    "section": "Scholarium",
+    "text": "Scholarium\n- BEK: kuratierte Sekundärliteratur\n- BEK: Contributions\n- BEK: Bibliometrische Information (ca. 12 000 Publikation inkl. Abstract)",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
+  },
+  {
+    "objectID": "sources/basel2023.html#kontext-literatur",
+    "href": "sources/basel2023.html#kontext-literatur",
+    "title": "Opera Bernoulli Euler",
+    "section": "Kontext Literatur",
+    "text": "Kontext Literatur\n\nZeitgenossen\nRelevante Literatur nach Themenähnlichkeit\nÄltere Quellen\nBriefwechsel",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
+  },
+  {
+    "objectID": "sources/basel2023.html#semantisch-verwandte-themen",
+    "href": "sources/basel2023.html#semantisch-verwandte-themen",
+    "title": "Opera Bernoulli Euler",
+    "section": "Semantisch verwandte Themen",
+    "text": "Semantisch verwandte Themen\n\nMathematische Probleme\nNotationen\nBegriffs Universum\nMethodische Vorgehensweisen\nmaterielle Quellen\n\nInstrumente\nKarten\nZeichnungen",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
+  },
+  {
+    "objectID": "sources/basel2023.html#vektordatenbank",
+    "href": "sources/basel2023.html#vektordatenbank",
+    "title": "Opera Bernoulli Euler",
+    "section": "Vektordatenbank",
+    "text": "Vektordatenbank\n\nIndex Dateien für alle embeddings",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
+  },
+  {
+    "objectID": "sources/basel2023.html#entitäten",
+    "href": "sources/basel2023.html#entitäten",
+    "title": "Opera Bernoulli Euler",
+    "section": "Entitäten",
+    "text": "Entitäten\n\nPersonen\nOrte\nFachausdrücke",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
   },
   {
     "objectID": "sources/basel2023.html#segment_2-tabelle-einzelner-sätze",
     "href": "sources/basel2023.html#segment_2-tabelle-einzelner-sätze",
     "title": "Opera Bernoulli Euler",
     "section": "Segment_2 Tabelle einzelner Sätze",
-    "text": "Segment_2 Tabelle einzelner Sätze"
+    "text": "Segment_2 Tabelle einzelner Sätze",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
   },
   {
     "objectID": "sources/basel2023.html#computation",
     "href": "sources/basel2023.html#computation",
     "title": "Opera Bernoulli Euler",
     "section": "Computation",
-    "text": "Computation"
+    "text": "Computation",
+    "crumbs": [
+      "Opera Bernoulli Euler"
+    ]
   }
 ]
